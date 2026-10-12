@@ -33,7 +33,7 @@ h1 {
   background-color: #000;
   margin-top: 0;
   padding: 20px;
-  z-index: 2;
+  z-index: 0;
 }
 
 h2 {
