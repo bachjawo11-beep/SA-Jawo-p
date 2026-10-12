@@ -33,7 +33,7 @@ h1 {
   background-color: #000;
   margin-top: 0;
   padding: 20px;
-  z-index: 0;
+  z-index: 2;
 }
 
 h2 {
@@ -267,7 +267,7 @@ form {
 border: none;
 color: #9efefa;
 font-size: 28px;
-z-index: 4;
+z-index: 6;
 }
 #side-menu.open {
   right: 0;
