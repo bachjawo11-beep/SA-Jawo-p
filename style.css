@@ -260,3 +260,33 @@ form {
 #form-message {
   color: red;
 }
+
+#menu-toggle {
+  position: fixed;
+  top: 0;
+  right: 5px;
+  background: transparent;
+border: none;
+color: #9efefa;
+font-size: 28px;
+z-index: 2;
+}
+#side-menu.open {
+  right: 0;
+}
+#side-menu {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 80px;
+  height: 25vh;
+  background: black;
+  transition: right 0.3s ease;
+}
+#side-menu {
+  left: auto;
+}
+#side-menu a {
+  display: block;
+  margin: 15px 0;
+  }
