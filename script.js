@@ -42,3 +42,15 @@ let lastX=0,lastY=0;document.addEventListener('mousemove',function(e){
   }
 });
     
+  const menu = document.getElementById("side-menu");
+  const button = document.getElementById("menu-toggle");
+
+  button.addEventListener("click", function() {
+  menu.classList.toggle("open");
+  console.log(menu.className);
+});
+document.addEventListener("click", function(event) {
+  if (!menu.contains(event.target) && !button.contains(event.target)) {
+    menu.classList.remove("open");
+  }
+});
