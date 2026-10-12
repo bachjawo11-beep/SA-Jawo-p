@@ -267,7 +267,7 @@ form {
 border: none;
 color: #9efefa;
 font-size: 28px;
-z-index: 6;
+z-index: 130;
 }
 #side-menu.open {
   right: 0;
@@ -280,7 +280,7 @@ z-index: 6;
   height: 25vh;
   background: black;
   transition: right 0.3s ease;
-  z-index: 4;
+  z-index: 130;
 }
 #side-menu {
   left: auto;
