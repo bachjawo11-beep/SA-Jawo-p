@@ -280,6 +280,7 @@ z-index: 4;
   height: 25vh;
   background: black;
   transition: right 0.3s ease;
+  z-index: 4;
 }
 #side-menu {
   left: auto;
