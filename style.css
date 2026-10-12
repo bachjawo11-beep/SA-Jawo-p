@@ -27,7 +27,7 @@ h1 {
   text-transform: capitalize;
   letter-spacing: 2.5px;
   position: fixed;
-  top: 70px;
+  top: 0;
   left: 0;
   right: 0;
   background-color: #000;
@@ -85,6 +85,7 @@ li {
   background-color: #9efefa;
 }
 
+
 nav {
   background-color: #9efefa;
   position: fixed;
@@ -106,16 +107,13 @@ nav a:hover {
 }
 
 nav a {
-  border: 2px solid #9f253a;
-  color: #000;
+  
+  color: #fff;
   padding: 8px 8px;
   margin-left: 0;
   margin-right: 0;
-  border-radius: 10px;
-  background-color: #9e253a;
-  box-shadow: 0 7px 8px #9efefa;
   text-decoration: none;
-}
+  }
 
 p {
   line-height: 2;
