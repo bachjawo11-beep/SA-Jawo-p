@@ -21,7 +21,7 @@ if (message === "") {
 }
 const whatsappMessage = `: ${name}\n: ${email}\n: ${message}`;
 const whatsappUrl = `https://wa.me/+220877597080?text=${encodeURIComponent(whatsappMessage)}`;
-window.open(whatsappUrl, "_blank");
+window.open(whatsappUrl, "_self");
 form.reset();
 });
 
